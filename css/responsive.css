@@ -187,7 +187,7 @@
     }
 
     .card .description{
-        display: none; /*Oculta la descripción de las tarjetas*/
+        display: none; 
     }
 
     #footer img{
