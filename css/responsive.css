@@ -162,7 +162,7 @@
     }
 
     .card .description{
-        font-size: 13px; /*La descripción no se leía bien, reduje el tamaño de la fuente*/
+        font-size: 13px; /*La descripción no se leía bien, reduje el tamaño de la fuente para este tamaño*/
     }
 }
 
