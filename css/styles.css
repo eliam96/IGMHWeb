@@ -194,7 +194,6 @@ a:visited{
     transition: all 300ms;
 }
 
-
 .card:hover{
     background-color: black;
 }
@@ -271,29 +270,41 @@ a:visited{
     animation: showDescription 400ms linear;
 }
 
- /*Para enlace de descarga */
-.descarga{
-    width: 100%;
-    border-radius: 3px;
- }
-.card .descarga { 
+/*Agregado para las paginas de las carreras*/
+.contenedor{
+    width: 96%;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    padding: 0.625rem ;
+    border: 1px solid #CCC;
+    background: white;
+    overflow: hidden;
+}
+.contenedor__img{
+    width: 96%;
+    height: 21.875rem;
+    background: #CCC;
+    margin: 0 auto;
+    margin-top: 0.3125rem;
     text-align: center;
-    color: #0370b9; 
-    font-size: 14px;
-    padding: 0 50px ;
-    font-family: "TrebuchetMS";
-    transition: all 300ms;
-    text-decoration: none;
+    font-size: 3.125rem;
+    border: 5px solid green;
+
+    
 }
 
-.descarga:hover {
-    font-weight: bold;
-    font-size: 16px;
+.contenedor__descripcion{
+    width: 96%;
+    margin: 0 auto;
+    margin-top: 5px;
+    border: 1px solid #CCC;
+    background: white;
+    font-size: 3.125rem;
 }
 
 
-/*Agregado*/
-
+/*FIN*/
 
 
 .ancho{
