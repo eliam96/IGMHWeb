@@ -284,12 +284,13 @@ a:visited{
 .contenedor__img{
     width: 96%;
     height: 21.875rem;
-    background: #CCC;
+    /*background: #CCC*/;
     margin: 0 auto;
     margin-top: 0.3125rem;
+    padding: 0.625rem;;
     text-align: center;
     font-size: 3.125rem;
-    border: 5px solid green;
+    border: 1px solid #CCC;
 
     
 }
@@ -298,10 +299,39 @@ a:visited{
     width: 96%;
     margin: 0 auto;
     margin-top: 5px;
+    padding: 0.625rem;;
     border: 1px solid #CCC;
     background: white;
-    font-size: 3.125rem;
+    font-size: 2.125rem;
+    border-spacing: 20px;
+    overflow: hidden;
+    
 }
+
+.descripcion p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 2rem;
+}
+
+.descargapdf {
+    font-size:1.5rem;
+    margin-top: 1rem;
+    font-weight: bold;
+    font-family: "TrebuchetMS";
+}
+
+
+
+.descargapdf a:hover{
+    color: #00538C;
+}
+
+.titular{
+    color: #00538C;
+    font-family: "TrebuchetMS"
+}
+
 
 
 /*FIN*/
